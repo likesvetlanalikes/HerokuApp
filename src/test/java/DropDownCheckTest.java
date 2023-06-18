@@ -7,7 +7,7 @@ import java.util.List;
 
 public class DropDownCheckTest extends BaseTest {
     @Test
-    public void checkDropdownList() {?
+    public void checkDropdownList() {
 
         driver.get("https://the-internet.herokuapp.com/dropdown");
         Select dropdown = new Select(driver.findElement(By.id("dropDownList")));
